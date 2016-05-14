@@ -1,0 +1,34 @@
+/*
+    On/Off Switch
+*/
+
+$switch-height: 16px;
+$switch-width: 26px;
+$switch-inner-padding: 2px;
+$switch-knob-size: $switch-height - ($switch-inner-padding * 2);
+
+.switch {
+ //   @include border-radius(10px);
+    position: relative;
+    height: $switch-height;
+    width: $switch-width;
+    background: $grey-light;
+    cursor: pointer;
+    &.is-on {
+        background: $blue;
+    }
+}
+    .switch__knob {
+    //    @include border-radius($switch-height / 2);
+    //    @include single-transition(0.1s linear left);
+        position: absolute;
+        display: block;
+        left: $switch-inner-padding;
+        top: $switch-inner-padding;
+        height: $switch-knob-size;
+        width: $switch-knob-size;
+        background-color: $white;
+        .is-on & {
+            left: $switch-width - $switch-knob-size - $switch-inner-padding;
+        }
+    }

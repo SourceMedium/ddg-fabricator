@@ -1,0 +1,27 @@
+colors:
+  primary:
+    dark: "#333"
+    grey-light: "#aaa"
+  secondary:
+    silver: "#f2f2f2"
+    silver-light: "#f7f7f7"
+    platinum-darker: "#c3c3c3"
+    platinum-dark: "#d0d0d0"
+    pLatinum: "#e0e0e0"
+    platinum-light: "#e5e5e5"
+    red: "#de5833"
+    red-light: "#e37151"
+    red-dark: "#bd4b2b"
+    blue: "#4495d4"
+    blue-light: "#60a5da"
+    blue-dark: "#3a7fb4"
+    purple: "#6d59a3"
+    gold: "#f1a031"
+
+tabs:
+  Serp:
+    - About
+    - Images
+    - Videos
+    - Products
+    

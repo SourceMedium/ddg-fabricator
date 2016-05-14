@@ -1,0 +1,19 @@
+<div id="header_wrapper" class="header-wrap  js-header-wrap">
+  <div id="header" class="header  cw">
+    <div class="header__search-wrap"><a tabindex="-1" href="/" class="header__logo-wrap">
+      {{> serp-logo}}
+      <div class="header__content  header__search">
+        <form id="search_form" class="search--adv  search--header  js-search-form" name="x" action="/">
+          <input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input--adv  js-search-input" value="ewok">
+          <input id="search_form_input_clear" class="search__clear  js-search-clear" type="button" tabindex="3" value="X" />
+          <input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
+          <a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4"></a>
+          <div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+        </form>
+      </div>
+      {{> serp-search__filters}}
+      </div>
+      {{>serp-duckbar}}
+    </div>
+    {{> serp-header__aside}}
+  </div>
