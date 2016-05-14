@@ -7,7 +7,7 @@ TARGET_BRANCH="gh-pages"
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
 echo "Skipping deploy; just doing a build."
-npm install && build
+npm install && gulp
 exit 0
 fi
 
@@ -27,7 +27,7 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # Run our compile script
-npm install && build
+npm install && gulp
 
 # Now let's go have some fun with the cloned repo
 cd out
