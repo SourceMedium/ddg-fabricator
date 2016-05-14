@@ -1,9 +1,15 @@
+script: bash ./deploy.sh
+env:
+global:
+- ENCRYPTION_LABEL: "09a1b0893ee2"
+- COMMIT_AUTHOR_EMAIL: "lauren@sourcemedium.com"
+
 
 sudo: false
 language: node_js
 
 node_js:
-  - "0.12"
+- "0.12"
 
 notifications:
   webhooks:
