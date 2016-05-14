@@ -33,7 +33,7 @@ var config = {
 		images: 'src/assets/toolkit/images/**/*',
 		views: 'src/toolkit/views/*.html'
 	},
-	dest: 'dist'
+	dest: 'out'
 };
 
 
