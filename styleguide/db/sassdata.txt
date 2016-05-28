@@ -1,0 +1,113 @@
+[
+  {
+    "name": "theme",
+    "colors": {
+      "#111111": [
+        "$black"
+      ],
+      "#f7f7f7": [
+        "$silver-light"
+      ],
+      "#ededed": [
+        "$silver-dark"
+      ],
+      "#e0e0e0": [
+        "$platinum"
+      ],
+      "#c3c3c3": [
+        "$platinum-darker"
+      ],
+      "#999999": [
+        "$grey"
+      ],
+      "#666666": [
+        "$slate-light"
+      ],
+      "#333333": [
+        "$slate"
+      ],
+      "#707978": [
+        "$gray-blue"
+      ],
+      "#bd4b2b": [
+        "$red-dark"
+      ],
+      "#5b9e4d": [
+        "$green"
+      ],
+      "#49a9f2": [
+        "$blue-dark-bg"
+      ],
+      "#3a7fb4": [
+        "$blue-dark"
+      ],
+      "#f1a031": [
+        "$gold"
+      ],
+      "#ffffff": [
+        "$white"
+      ],
+      "#e5e5e5": [
+        "$platinum-light"
+      ],
+      "#aaaaaa": [
+        "$grey-light"
+      ],
+      "#434a50": [
+        "$slate-light-blue"
+      ],
+      "#de5833": [
+        "$red"
+      ],
+      "#6096bf": [
+        "$blue-desaturated"
+      ],
+      "#60a5da": [
+        "$blue-light"
+      ],
+      "#f2f2f2": [
+        "$silver"
+      ],
+      "#888888": [
+        "$grey-dark"
+      ],
+      "#e37151": [
+        "$red-light"
+      ],
+      "#6d59a3": [
+        "$purple"
+      ],
+      "#d0d0d0": [
+        "$platinum-dark"
+      ],
+      "#4495d4": [
+        "$blue"
+      ],
+      "#34383b": [
+        "$slate-blue"
+      ]
+    },
+    "typography": [
+      {
+        "variable": "$font-proxima-regular",
+        "value": "'DDG_ProximaNova', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 600,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$font-proxima-light",
+        "value": "'DDG_ProximaNova', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 300,
+            "italic": false
+          }
+        ]
+      }
+    ]
+  }
+]

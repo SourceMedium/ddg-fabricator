@@ -11,9 +11,13 @@
           <div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
         </form>
       </div>
-      {{> serp-search__filters}}
+      <div class="search__filters js-search-filters">
+        {{> serp-search__filters}}
       </div>
-      {{>serp-duckbar}}
+      </div>
     </div>
+    {{>serp-duckbar}}
+    <div class="header--aside">
     {{> serp-header__aside}}
+    </div>
   </div>

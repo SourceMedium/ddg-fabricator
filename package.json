@@ -37,6 +37,7 @@
     "babel-preset-stage-2": "^6",
     "browser-sync": "^2",
     "del": "^2",
+    "devbridge-styleguide": "^0.4.9",
     "fabricator-assemble": "^1.1.10",
     "gulp": "^3",
     "gulp-autoprefixer": "^3",

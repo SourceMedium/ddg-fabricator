@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "name": "Headings"
+  },
+  {
+    "id": 1,
+    "name": "Search"
+  },
+  {
+    "id": 2,
+    "name": "Form Elements"
+  },
+  {
+    "id": 3,
+    "name": "Miscellany"
+  }
+]

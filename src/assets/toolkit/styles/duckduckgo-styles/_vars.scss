@@ -4,6 +4,57 @@ $asset-path: '';
 ////////////////
 // Colors (See also https://github.com/duckduckgo/duckduckgo-colors)
 
+// from https://github.com/duckduckgo/duckduckgo-colors/blob/master/_colors.scss
+
+//-- colors:start --//
+$black: #111111;
+$white: #ffffff;
+$silver-light: #f7f7f7;
+$silver: #f2f2f2;
+$silver-dark: #ededed;
+$platinum-light: #e5e5e5;
+$platinum: #e0e0e0;
+$platinum-dark: #d0d0d0;
+$platinum-darker: #c3c3c3;
+$grey-light: #aaaaaa;
+$grey: #999999;
+$grey-dark: #888888;
+$slate-light: #666666;
+$slate-light-blue: #434a50;
+$slate: #333333;
+$slate-blue: #34383b;
+$gray-blue: #707978;
+$red: #de5833;
+$red-dark: #bd4b2b;
+$red-light: #e37151;
+$green: #5b9e4d;
+$blue-desaturated: #6096bf;
+$blue-dark-bg: #49a9f2;
+$blue: #4495d4;
+$blue-dark: #3a7fb4;
+$blue-light: #60a5da;
+$gold: #f1a031;
+$purple: #6d59a3;
+//-- colors:end --//
+
+$slate-dark: $black;
+$red-darker: darken($red-dark,15%);
+$red-lighter: lighten($red-light,15%);
+$blue-darker: darken($blue-dark,15%);
+$blue-lighter: lighten($blue-light,15%);
+$blue-lightest: lighten($blue-light,20%);
+
+$gray-light: $grey-light;
+$gray: $grey;
+$gray-dark: $grey-dark;
+
+$plat-light: $platinum-light;
+$plat: $platinum;
+$plat-dark: $platinum-dark;
+$plat-darker: $platinum-darker;
+
+
+
 $divider-gray: $platinum-dark;
 
 $button-bg: #fafafa;
@@ -32,6 +83,47 @@ $light-alt: $grey-light;
 
 $main-bg: $white;
 $alt-bg: $silver-light;
+
+
+////////////////
+// Type
+
+@font-face {
+  font-family: 'DDG_ProximaNova';
+  src: url("/styleguide/content/fonts/ProximaNova-Sbold-webfont.eot");
+  src: url("/styleguide/content/fonts/ProximaNova-Sbold-webfont.eot?#iefix") format("embedded-opentype"), url("/styleguide/content/fonts/ProximaNova-Sbold-webfont.woff") format("woff"), url("/styleguide/content/fonts/ProximaNova-Sbold-webfont.ttf") format("truetype"), url("/styleguide/content/fonts/ProximaNova-Sbold-webfont.svg#proxima_nova_ltsemibold") format("svg");
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'DDG_ProximaNova';
+  src: url("/styleguide/content/fonts/ProximaNova-Reg-webfont.eot");
+  src: url("/styleguide/content/fonts/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"), url("/styleguide/content/fonts/ProximaNova-Reg-webfont.woff") format("woff"), url("/styleguide/content/fonts/ProximaNova-Reg-webfont.ttf") format("truetype"), url("/styleguide/content/fonts/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'DDG_ProximaNova';
+  src: url("/styleguide/content/fonts/ProximaNova-RegIt-webfont.eot");
+  src: url("/styleguide/content/fonts/ProximaNova-RegIt-webfont.eot?#iefix") format("embedded-opentype"), url("/styleguide/content/fonts/ProximaNova-RegIt-webfont.woff") format("woff"), url("/styleguide/content/fonts/ProximaNova-RegIt-webfont.ttf") format("truetype"), url("/styleguide/content/fonts/ProximaNova-RegIt-webfont.svg#proxima_novaregular_italic") format("svg");
+  font-weight: normal;
+  font-style: italic
+}
+
+@font-face {
+  font-family: 'DDG_ProximaNova';
+  src: url("/styleguide/content/fonts/ProximaNova-Light-webfont.eot");
+  src: url("/styleguide/content/fonts/ProximaNova-Light-webfont.eot?#iefix") format("embedded-opentype"), url("/styleguide/content/fonts/ProximaNova-Light-webfont.woff") format("woff"), url("/styleguide/content/fonts/ProximaNova-Light-webfont.ttf") format("truetype"), url("/styleguide/content/fonts/ProximaNova-Light-webfont.svg#proxima_nova_ltlight") format("svg");
+  font-weight: 300;
+  font-style: normal
+}
+
+//-- typo:start --//
+$font-proxima-regular: 'DDG_ProximaNova', helvetica, sans-serif; // 600
+$font-proxima-light: 'DDG_ProximaNova', helvetica, sans-serif; // 300
+//-- typo:end --//
 
 ////////////////
 // Sizes
@@ -70,3 +162,4 @@ $landscape2-width:  $media--xs !default;
 
 // Set the default border radius
 $default-border-radius: 2px;
+

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 16,
+    "name": "Third Module",
+    "code": "\n\t\t\t\t<div class=\"spread-info\">\n\t\t\t\t\t<noscript>\n\t\t\t\t\t\t&lt;img class=\"spread-img\" title=\"so share us with your friends\" src=\"/assets/spread/share.png\" /&gt;\n\t\t\t\t\t</noscript>\n\t\t\t\t\t<img class=\"spread-img  js-lazysvg  no-js__hide\" title=\"so share us with your friends\" src=\"http://duckduckgo.com/assets/spread/share.svg\" data-src=\"http://duckduckgo.com//assets/spread/share\">\n\t\t\t\t\t\n\t\t\t\t\t<h4 class=\"spread-info__hd\">Show Your Friends</h4>\n\t\t\t\t\t<p class=\"spread-info__p\">Show your friends and family why you love DuckDuckGo and get them to switch.  Did you know 98% of the world has never heard about us?</p>\n                <br>\n\t\t\t\t</div>\n",
+    "description": "",
+    "inlineCss": "#snippet { \n  background-color: #34383b;\n  width: 30%;\n  min-width: 300px;\n  padding-bottom: 30px;\n  color: white;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 8,
+    "name": "Alert box",
+    "code": "<div class=\"msg--info\">Check out our illustrated search privacy guides at <a href=\"http://donttrack.us/\">donttrack.us</a> and <a href=\"http://dontbubble.us/\">dontbubble.us</a>.</div>",
+    "description": "For calling attention to important information that might otherwise blend in to UI.",
+    "inlineCss": "#snippet { \n  text-align: center;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 11,
+    "name": "Light  Footer",
+    "code": "<div class=\"blk  blk--foot  blk--foot--alt\">\n\t<div class=\"cw--c\">\n\t\t\t<p>© <a href=\"https://duckduckgo.com\">DuckDuckGo</a>. The search engine that doesn't track you.</p>\n\t</div>\n</div>",
+    "description": "Used on /share",
+    "inlineCss": "",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 15,
+    "name": "Well Module",
+    "code": "<div class=\"cloudsave\"><span class=\"ddgsi  cloudsave__icn\">c</span><h4 class=\"cloudsave__title\">Cloud Save Enabled</h4><div class=\"cloudsave__actions\"><span class=\"btn  js-cloudsave-disable\">Disable</span><span class=\"btn  js-cloudsave-delete\">Delete my data</span></div></div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  width: 30%;\n  min-width: 320px;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 21,
+    "name": "Bookmarklet Settings",
+    "code": "<div class=\"set-bookmarklet js-set-bookmarklet\">\n  <span class=\"set-bookmarklet__title js-set-bookmarklet-expand is-hidden\">Show\n  Bookmarklet and Settings Data</span>\n\n  <div class=\"set-bookmarklet__detail js-set-bookmarklet-detail\">\n    <div class=\"set-bookmarklet__close ddgsi js-set-bookmarklet-close\" href=\n    \"#\">\n      X\n    </div>\n\n\n    <p class=\"set-bookmarklet__label\">Bookmarklet URL:</p>\n    <input class=\"set-bookmarklet__input js-set-bookmarklet-url\" value=\"https://duckduckgo.com/?ks=m&kaj=u&kam=osm&kak=-1&kad=en_US\">\n\n    <p class=\"set-bookmarklet__label is-hidden js-set-bookmarklet-cs-label\">\n    Cloud Save Bookmarklet URL:</p>\n    <input class=\"set-bookmarklet__input is-hidden js-set-bookmarklet-cs-url\"\n    value=\"\">\n\n    <p class=\"set-bookmarklet__label\">Settings in JSON:</p>\n\n\n    <div class=\"set-bookmarklet__data js-set-bookmarklet-json\">\n      {\"ks\":\"m\",\"kaj\":\"u\",\"kam\":\"osm\",\"kak\":\"-1\",\"kad\":\"en_US\"}\n    </div>\n\n\n    <p class=\"set-bookmarklet__label\">Cookie Data:</p>\n\n\n    <div class=\"set-bookmarklet__data js-set-bookmarklet-cookie\">\n      gsScrollPos=; s=m; aj=u; am=osm; ak=-1; ad=en_US\n    </div>\n\n\n    <p class=\"set-bookmarklet__info\">See the <a href=\"/params\">URL Parameter\n    Reference Page</a> for more details</p>\n\n\n    <p class=\"set-bookmarklet__info\">By default settings are stored in\n    non-personal browser cookies (in your browser). You can use Anonymous Cloud\n    Save to store your settings in a more permanent way (on a remote server in\n    the cloud). No personally identifiable information will be stored in the\n    cloud, and your pass phrase will never leave your browser.</p>\n  </div>\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  width: 30%;\n  min-width: 300px;\n  \n}\n.set-bookmarklet__input {\n    width: 100%!important;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]

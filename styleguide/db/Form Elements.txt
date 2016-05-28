@@ -1,0 +1,52 @@
+[
+  {
+    "id": 13,
+    "name": "Dropdown",
+    "code": "<div class=\"frm__select  frm__ctrl--break-xs\"><select id=\"setting_kam\" class=\"js-set-input\"><option value=\"apple-maps-osx\">Apple Maps</option><option value=\"bing-maps\">Bing Maps</option><option value=\"google-maps\">Google Maps</option><option value=\"here-maps\">HERE Maps</option><option value=\"osm\">OpenStreetMap</option></select></div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  float: left;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 14,
+    "name": "Button",
+    "code": "<a class=\"btn  btn--primary  js-set-exit\" href=\"https://duckduckgo.com/\">Save and Exit</a>",
+    "description": "",
+    "inlineCss": "#snippet { \n  float: left;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 4,
+    "name": "Search",
+    "code": "<div class=\"header__search-wrap\">\n\t\t\t<a href=\"/\" class=\"header__logo-wrap\">\n\t\t\t\t<span class=\"header__logo\">DuckDuckGo</span>\n\t\t\t</a>\n\t\t\t<div class=\"header__content  header__search  search-wrap--header\">\n\t\t\t\t<form id=\"search_form\" class=\"search--header  js-search-form search--adv\" name=\"x\" action=\"/\" method=\"GET\">\n\t\t\t\t\t<input type=\"text\" name=\"q\" tabindex=\"1\" autocomplete=\"off\" id=\"search_form_input\" class=\"js-search-input search__input--adv\" placeholder=\"Search DuckDuckGo\" autocapitalize=\"off\" autocorrect=\"off\">\n\t\t\t\t\t<input id=\"search_button\" class=\"search__button  js-search-button\" type=\"submit\" tabindex=\"2\" value=\"S\">\n\t\t\t\t\t<input id=\"search_form_input_clear\" class=\"search__clear  empty  js-search-clear\" type=\"button\" tabindex=\"3\" value=\"X\">\n\t\t\t\t\t<div id=\"search_elements_hidden\" class=\"search__hidden  js-search-hidden\"></div>\n\t\t\t\t<div class=\"search__autocomplete\" style=\"position: absolute; display: none;\"><div class=\"acp-wrap\"></div><div class=\"acp-footer is-hidden\"><span class=\"acp-footer__instructions\">Select a !bang for a direct site search</span><span class=\"acp-footer__link\"><a class=\"no-visited\" href=\"/bang\">View all !bangs</a></span></div></div></form>\n\t\t\t</div>\n\t\t</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  margin-top: 5px;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 12,
+    "name": "Button group",
+    "code": "<div class=\"set-head__menu  btn-grp\"><a class=\"btn  js-set-head-tab  js-set-general is-active\" href=\"https://duckduckgo.com/settings#general\" data-tabid=\"general\">General</a><a class=\"btn  js-set-head-tab  js-set-theme\" href=\"#theme\" data-tabid=\"theme\">Theme</a><a class=\"btn  js-set-head-tab  js-set-appearance\" href=\"#appearance\" data-tabid=\"appearance\">Appearance</a><a class=\"btn  js-set-head-tab  js-set-privacy\" href=\"#privacy\" data-tabid=\"privacy\">Privacy</a></div>",
+    "description": "",
+    "inlineCss": "#snippet { \n float: left; \n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  },
+  {
+    "id": 20,
+    "name": "No Fill Button",
+    "code": "<div class=\"set-bookmarklet  js-set-bookmarklet\"><span class=\"set-bookmarklet__title  js-set-bookmarklet-expand\">Show Bookmarklet and Settings Data</span><div class=\"set-bookmarklet__detail  is-hidden  js-set-bookmarklet-detail\"><div class=\"set-bookmarklet__close  ddgsi  js-set-bookmarklet-close\" href=\"#\">X</div><p class=\"set-bookmarklet__label\">Bookmarklet URL:</p><input class=\"set-bookmarklet__input  js-set-bookmarklet-url\" value=\"\"><p class=\"set-bookmarklet__label  is-hidden  js-set-bookmarklet-cs-label\">Cloud Save Bookmarklet URL:</p><input class=\"set-bookmarklet__input  is-hidden  js-set-bookmarklet-cs-url\" value=\"\"><p class=\"set-bookmarklet__label\">Settings in JSON:</p><div class=\"set-bookmarklet__data  js-set-bookmarklet-json\">{\"ks\":\"m\",\"kaj\":\"u\",\"kam\":\"osm\",\"kak\":\"-1\",\"kad\":\"en_US\"}</div><p class=\"set-bookmarklet__label\">Cookie Data:</p><div class=\"set-bookmarklet__data  js-set-bookmarklet-cookie\">gsScrollPos=; s=m; aj=u; am=osm; ak=-1; ad=en_US</div><p class=\"set-bookmarklet__info\">See the <a href=\"/params\">URL Parameter Reference Page</a> for more details</p><p class=\"set-bookmarklet__info\">By default settings are stored in non-personal browser cookies (in your browser). You can use Anonymous Cloud Save to store your settings in a more permanent way (on a remote server in the cloud). No personally identifiable information will be stored in the cloud, and your pass phrase will never leave your browser.</p></div></div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  width: 30%;\n  min-width: 300px;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]
