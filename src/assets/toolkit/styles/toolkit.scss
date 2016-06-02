@@ -3846,35 +3846,35 @@ only screen and (min-resolution: 192dppx) and (max-height: 361.25px) {
 }
 
 .header__logo {
-  background-image: url(assets/logo_header.v107.min.png);
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.png);
   background-size: 50px 50px
 }
 
 .svg .header__logo {
-  background-image: url(assets/logo_header.v107.min.svg)
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.svg)
 }
 
 .dark-header .header__logo {
-  background-image: url(assets/logo_header_alt.v103.min.png)
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.png)
 }
 
 .svg.dark-header .header__logo {
-  background-image: url(assets/logo_header_alt.v103.min.svg)
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.svg)
 }
 
 @media only screen and (min-width: 864px) {
   .header__logo {
-    background-image: url(assets/logo_header.v107.lg.png);
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.png);
     background-size: 60px 60px
   }
   .svg .header__logo {
-    background-image: url(assets/logo_header.v107.lg.svg)
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.svg)
   }
   .dark-header .header__logo {
-    background-image: url(assets/logo_header_alt.v103.lg.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.png)
   }
   .svg.dark-header .header__logo {
-    background-image: url(assets/logo_header_alt.v103.lg.svg)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.svg)
   }
 }
 
@@ -3885,10 +3885,10 @@ only screen and (-ms-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dppx) {
   .header__logo {
-    background-image: url(assets/logo_header.v107.min.retina.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.retina.png)
   }
   .dark-header .header__logo {
-    background-image: url(assets/logo_header_alt.v103.min.retina.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.retina.png)
   }
 }
 
@@ -3899,10 +3899,10 @@ only screen and (-ms-min-device-pixel-ratio: 2) and (min-width: 864px),
 only screen and (min-device-pixel-ratio: 2) and (min-width: 864px),
 only screen and (min-resolution: 192dppx) and (min-width: 864px) {
   .header__logo {
-    background-image: url(assets/logo_header.v107.lg.retina.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.retina.png)
   }
   .dark-header .header__logo {
-    background-image: url(assets/logo_header_alt.v107.lg.retina.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v107.lg.retina.png)
   }
 }
 
