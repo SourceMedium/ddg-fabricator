@@ -3738,58 +3738,58 @@ a.is-disabled:hover {
 }
 
 .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.png");
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.png");
   background-size: 250px 200px;
   width: 250px;
   height: 200px
 }
 
 .svg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.svg")
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.svg")
 }
 
 .dark-bg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.alt.v105.png")
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v105.png")
 }
 
 .svg.dark-bg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.alt.v106.svg")
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v106.svg")
 }
 
 @media only screen and (max-width: 425px) {
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.normal.v107.png");
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.normal.v107.png");
     background-size: 166px 130px;
     width: 166px;
     height: 130px
   }
   .svg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.normal.v107.svg")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.normal.v107.svg")
   }
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.alt.v105.png")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.alt.v105.png")
   }
   .svg.dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.alt.v107.svg")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.alt.v107.svg")
   }
 }
 
 @media only screen and (max-height: 382.5px) and (max-width: 634px),
 only screen and (max-height: 361.25px) {
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.normal.v107.png");
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.normal.v107.png");
     background-size: 275px 62px;
     width: 275px;
     height: 62px
   }
   .svg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.normal.v107.svg")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.normal.v107.svg")
   }
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.alt.v105.png")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.alt.v105.png")
   }
   .svg.dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.alt.v106.svg")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.alt.v106.svg")
   }
 }
 
@@ -3800,10 +3800,10 @@ only screen and (-ms-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dppx) {
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.retina.png")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.retina.png")
   }
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage.alt.v105.retina.png")
+    background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v105.retina.png")
   }
 }
 
@@ -3842,35 +3842,35 @@ only screen and (min-resolution: 192dppx) and (max-height: 361.25px) {
 }
 
 .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header.v107.min.png);
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.png);
   background-size: 50px 50px
 }
 
 .svg .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header.v107.min.svg)
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.svg)
 }
 
 .dark-header .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header_alt.v103.min.png)
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.png)
 }
 
 .svg.dark-header .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header_alt.v103.min.svg)
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.svg)
 }
 
 @media only screen and (min-width: 864px) {
   .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.png);
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.png);
     background-size: 60px 60px
   }
   .svg .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.svg)
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.svg)
   }
   .dark-header .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header_alt.v103.lg.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.png)
   }
   .svg.dark-header .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header_alt.v103.lg.svg)
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.svg)
   }
 }
 
@@ -3895,7 +3895,7 @@ only screen and (-ms-min-device-pixel-ratio: 2) and (min-width: 864px),
 only screen and (min-device-pixel-ratio: 2) and (min-width: 864px),
 only screen and (min-resolution: 192dppx) and (min-width: 864px) {
   .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.retina.png)
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.retina.png)
   }
   .dark-header .header__logo {
     background-image: url(assets/toolkit/images/logo_header_alt.v107.lg.retina.png)
@@ -10885,7 +10885,7 @@ html {
 
 .search-filter--region .search-filter__icon,
 .nav-menu__item__icon--region {
-  background: url("/assets/toolkit/images/icons/icon_region.svg") center no-repeat
+  background: url("https://duckduckgo.com/assets/icons/icon_region.svg") center no-repeat
 }
 
 .dark-header .search-filter--region .search-filter__icon,

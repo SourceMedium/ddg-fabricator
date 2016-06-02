@@ -6423,64 +6423,64 @@ a.is-disabled:hover {
 
 /* line 3740, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.png");
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.png");
   background-size: 250px 200px;
   width: 250px;
   height: 200px; }
 
 /* line 3747, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .svg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.svg"); }
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.svg"); }
 
 /* line 3751, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .dark-bg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.alt.v105.png"); }
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v105.png"); }
 
 /* line 3755, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .svg.dark-bg .logo_homepage {
-  background-image: url("/assets/toolkit/images/logo_homepage.alt.v106.svg"); }
+  background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v106.svg"); }
 
 @media only screen and (max-width: 425px) {
   /* line 3760, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.normal.v107.png");
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.normal.v107.png");
     background-size: 166px 130px;
     width: 166px;
     height: 130px; }
   /* line 3766, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.normal.v107.svg"); }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.normal.v107.svg"); }
   /* line 3769, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.alt.v105.png"); }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.alt.v105.png"); }
   /* line 3772, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg.dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_small.alt.v107.svg"); } }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_small.alt.v107.svg"); } }
 
 @media only screen and (max-height: 382.5px) and (max-width: 634px), only screen and (max-height: 361.25px) {
   /* line 3779, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.normal.v107.png");
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.normal.v107.png");
     background-size: 275px 62px;
     width: 275px;
     height: 62px; }
   /* line 3785, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.normal.v107.svg"); }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.normal.v107.svg"); }
   /* line 3788, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.alt.v105.png"); }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.alt.v105.png"); }
   /* line 3791, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg.dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage_mobile.alt.v106.svg"); } }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage_mobile.alt.v106.svg"); } }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-ms-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dppx) {
   /* line 3802, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage.normal.v107.retina.png"); }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage.normal.v107.retina.png"); }
   /* line 3805, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .dark-bg .logo_homepage {
-    background-image: url("/assets/toolkit/images/logo_homepage.alt.v105.retina.png"); } }
+    background-image: url("https://duckduckgo.com/assets/logo_homepage.alt.v105.retina.png"); } }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 425px), only screen and (-moz-min-device-pixel-ratio: 2) and (max-width: 425px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 425px), only screen and (-ms-min-device-pixel-ratio: 2) and (max-width: 425px), only screen and (min-device-pixel-ratio: 2) and (max-width: 425px), only screen and (min-resolution: 192dppx) and (max-width: 425px) {
   /* line 3816, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
@@ -6500,35 +6500,35 @@ a.is-disabled:hover {
 
 /* line 3844, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header.v107.min.png);
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.png);
   background-size: 50px 50px; }
 
 /* line 3849, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .svg .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header.v107.min.svg); }
+  background-image: url(https://duckduckgo.com/assets/logo_header.v107.min.svg); }
 
 /* line 3853, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .dark-header .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header_alt.v103.min.png); }
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.png); }
 
 /* line 3857, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .svg.dark-header .header__logo {
-  background-image: url(/assets/toolkit/images/logo_header_alt.v103.min.svg); }
+  background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.min.svg); }
 
 @media only screen and (min-width: 864px) {
   /* line 3862, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.png);
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.png);
     background-size: 60px 60px; }
   /* line 3866, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.svg); }
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.svg); }
   /* line 3869, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .dark-header .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header_alt.v103.lg.png); }
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.png); }
   /* line 3872, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .svg.dark-header .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header_alt.v103.lg.svg); } }
+    background-image: url(https://duckduckgo.com/assets/logo_header_alt.v103.lg.svg); } }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-ms-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dppx) {
   /* line 3883, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
@@ -6541,7 +6541,7 @@ a.is-disabled:hover {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 864px), only screen and (-moz-min-device-pixel-ratio: 2) and (min-width: 864px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 864px), only screen and (-ms-min-device-pixel-ratio: 2) and (min-width: 864px), only screen and (min-device-pixel-ratio: 2) and (min-width: 864px), only screen and (min-resolution: 192dppx) and (min-width: 864px) {
   /* line 3897, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .header__logo {
-    background-image: url(/assets/toolkit/images/logo_header.v107.lg.retina.png); }
+    background-image: url(https://duckduckgo.com/assets/logo_header.v107.lg.retina.png); }
   /* line 3900, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
   .dark-header .header__logo {
     background-image: url(assets/toolkit/images/logo_header_alt.v107.lg.retina.png); } }
@@ -13399,7 +13399,7 @@ html {
 /* line 10887, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .search-filter--region .search-filter__icon,
 .nav-menu__item__icon--region {
-  background: url("/assets/toolkit/images/icons/icon_region.svg") center no-repeat; }
+  background: url("https://duckduckgo.com/assets/icons/icon_region.svg") center no-repeat; }
 
 /* line 10896, /Users/lancona/Documents/Github/DuckDuckGo/ddg-fabricator/src/assets/toolkit/styles/toolkit.scss */
 .dark-header .search-filter--region .search-filter__icon,
