@@ -3094,7 +3094,7 @@ only screena and (max-width: 27.692em) {
 }
 
 @media only screen and (max-width: 634px) {
-  .ddh--ias__items .third:not(: last-of-type) {
+  .ddh--ias__items .third:not(:last-of-type) {
     margin-bottom: 3em
   }
 }

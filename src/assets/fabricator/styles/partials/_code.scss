@@ -15,6 +15,10 @@ $code-colors: (
 	dark-gray: #969896
 );
 
+.token.tag {
+	border: 0px!important;
+	padding: 0!important;
+}
 
 // base
 code,
@@ -31,6 +35,7 @@ pre[class*='language-'] {
 	direction: ltr;
 	cursor: text;
 	letter-spacing: normal;
+	border: 0px!important;
 }
 
 // code blocks
