@@ -14383,7 +14383,7 @@ a.nav-menu__filter:active.is-active {
 }
 
 .mapview-marker {
-  background-image: url("/js/mapbox/ddgimages/map-pin_blank.v101.png");
+  background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_blank.v101.png");
   background-size: 26px 46px;
   text-align: center;
   cursor: pointer;
@@ -14392,12 +14392,12 @@ a.nav-menu__filter:active.is-active {
 
 .mapview-marker:hover,
 .mapview-marker.has-focus {
-  background-image: url("/js/mapbox/ddgimages/map-pin_active.png")
+  background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_active.png")
 }
 
 .mapview-marker.mapview-marker-star,
 .mapview-marker.mapview-marker-star.has-focus {
-  background-image: url("/js/mapbox/ddgimages/map-pin_star.v101.png")
+  background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_star.v101.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -14407,15 +14407,15 @@ a.nav-menu__filter:active.is-active {
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dppx) {
     .mapview-marker {
-      background-image: url("/js/mapbox/ddgimages/map-pin_blank@2x.v101.png")
+      background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_blank@2x.v101.png")
     }
     .mapview-marker:hover,
     .mapview-marker.has-focus {
-      background-image: url("/js/mapbox/ddgimages/map-pin_active@2x.png")
+      background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_active@2x.png")
     }
     .mapview-marker.mapview-marker-star,
     .mapview-marker.mapview-marker-star.has-focus {
-      background-image: url("/js/mapbox/ddgimages/map-pin_star@2x.v101.png")
+      background-image: url("https://duckduckgo.com/js/mapbox/ddgimages/map-pin_star@2x.v101.png")
     }
 }
 
