@@ -36,7 +36,7 @@
     "description": "",
     "inlineCss": "#snippet { \n  \n}",
     "includeJs": "true",
-    "isEdited": false,
-    "isDeleted": false
+    "isEdited": true,
+    "isDeleted": true
   }
 ]
